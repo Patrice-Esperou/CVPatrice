@@ -1,3 +1,117 @@
-body{
-	margin:0;
-}
+
+#liseret 
+{
+    float: left;
+    width:20%;
+    height: 1350px;
+    background-color:#FFCA28;}
+    img{border-radius: 50%;}
+    div.fenetre{padding-left: 13%;padding-top: 10%;border-radius:100%;}
+    div.contact{font-size: 1.3em;background-color:#37474F;color:#FFCA28;width: 100%;height: 4%;text-align: center;}
+    div.contact h3 {padding: 16.5px 0px 3px 0px;}
+    
+    div.liste ul {list-style:none;margin: 1%;}
+    div.aproposdemoi {font-size: 1.3em;background-color:#37474F;color:#FFCA28;width: 100%;height: 4%;text-align: center;}
+    div.aproposdemoi h3 {padding: 16.5px 0px 3px 0px;}
+    div.texte{text-align:justify;padding: 30px 30px 15px 30px;}
+    div.loisirs {font-size:1.3em;background-color:#37474F;color:#FFCA28;width: 100%;height: 4%;text-align: center;
+        margin-top: 70%;}
+    div.loisirs h3 {padding: 16.5px 0px 3px 0px;}
+    div.icone i {font-size: 2.5em;border: 2px black solid ;border-radius: 50%;}
+    div.icone p {padding-top: 7%;margin-left: -3%;}
+    
+
+
+#conteneur
+{display: flex;flex-wrap: wrap;}
+.element{width: 100%;}
+
+
+
+.header:nth-child(1)
+{background-color: green;}
+div.header { width:100%;padding-top: -20%;}
+
+.formation:nth-child(2)
+{background-color: blue;font-size: 1.2em;padding-top: 5%;margin-top: -1%;margin-bottom: -1.5%}
+div.formation{ width:100%;}
+
+.acejour:nth-child(3)
+{background-color: #ad6;}
+div.acejour{ width:25%;padding-left: 5%;}
+
+.open:nth-child(4)
+{background-color: red;}
+div.open{ width:70%;padding-top:  1.5%;}
+
+.annee:nth-child(5)
+{background-color: green;text-align: justify;}
+div.annee{ width:25%;padding-left: 5%;padding-bottom: 5%}
+
+.asfo:nth-child(6)
+{background-color: yellow;}
+div.asfo{ width:70%;padding-top:  1.5%;}
+
+.experiences:nth-child(7)
+{background-color:pink;font-size: 1.2em;margin-top:%;padding-top: 18%;}
+div.experiences{width:100%;padding-top:  7%;}
+
+.annee2:nth-child(8)
+{background-color: purple;margin-top:%;}
+div.annee2{ width:25%;padding-left: 5%;}
+
+
+.mineur:nth-child(9)
+{background-color: grey;margin-top:%;}
+div.mineur{ width:70%;padding-top:  1.5%}
+
+.kiloutou:nth-child(10)
+{background-color: beige;margin-top:%;}
+div.kiloutou{ width:25%;padding-left:5%;}
+
+.technicien:nth-child(11)
+{background-color: blue;margin-top:%;}
+div.technicien{ width:70%;padding-top:  1.5%}
+
+.annee3:nth-child(12)
+{background-color: yellow;text-align:justify;margin-top:%;}
+div.annee3{ width:25%;padding-left: 5%;}
+
+.humax:nth-child(13)
+{background-color: red;margin-top:%;}
+div.humax{ width:70%;padding-top:  1.5%;}
+
+.recommandations:nth-child(14)
+{background-color: green;font-size: 1.2em}
+div.recommandations{width:100%;margin-top: 7%;}
+
+.mark:nth-child(15)
+{background-color: purple;}
+div.mark{width:35%;padding-top:  3%;}
+
+.little:nth-child(16)
+{background-color: orange;}
+div.little{width:50%;padding-top:  3%;}
+
+
+ .header h1 {font-size: 4em;margin-top: 8%;margin-bottom: -2.2%;}
+ .header p {font-size: 2em;}
+ .formation p { margin-left: 60px;}
+.formation h2 {font-size: 2em;}
+.experiences p{color: #FFCA28;margin-left: 60px;}
+.formation i  {color: #FFCA28;}
+.formation p {color: #FFCA28;}
+.recommandations p {color: #FFCA28;margin-left: 60px;}
+.header h1 span{color:#FFCA28;}
+.formation i {color:#FFCA28;}
+.acejour i {color:#FFCA28;}	
+.annee i{color:#FFCA28;}    
+.annee2 i{color:#FFCA28;}   
+.annee3 i {color:#FFCA28;}  
+.kiloutou i {color:#FFCA28;}  
+.experiences i {color:#FFCA28;} 
+.recommandations i {color:#FFCA28;}
+.souligne {border-bottom: solid 1px #FFCA28;margin-left: 60px;}
+.mark {margin-left: 60px;}
+
+   
