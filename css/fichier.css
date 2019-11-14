@@ -50,14 +50,17 @@ div.liste ul
 
 .header
 {
-    margin-left: 20%;
+    margin-left: 13.5%;
     font-size: 1.5em;
 }
-.header h1{
+.header h1
+{
     text-transform: uppercase;
 }
-.header p{
+.header p
+{
     margin-top: -25px;
+
 }
 .header span
 {
@@ -72,7 +75,7 @@ div.liste ul
 
 .formation,.experiences,.recommandation
 {
- margin-left: 20%;font-size: 1.3em; padding-top: 5%;
+ margin-left: 13.5%;font-size: 1.3em; padding-top: 5%;
 }
 .sur-formation,.sur-experiences,.sur-recommandation
 {
@@ -80,42 +83,58 @@ border-top:2px #FFCA28 solid;
     width: 80%;
     margin-top: -10px;    
 }
-.centrage-formation,.centrage-experiences,.centrage-recommandation
+.centrage-experiences,.centrage-recommandation,.centrage-formation
 {
-margin-left: 4.5%; margin-top: 15%;
+margin-left: 4.5%; margin-top: 17%;
 }
 
-.periodes-formations i,.periodes-formations2 i,.periodes-experiences i,.periodes-experiences2 i,
-.periodes-experiences3 i,.experiences i,.formation i,.recommandation i
+
+.periodes-formation i,.periodes-formation2 i,
+.periodes-experiences i,.periodes-experiences2 i,.periodes-experiences3 i,
+.experiences i,.formation i,.recommandation i
 {
 color: #FFCA28;width: 30px;margin-top: 20px;  
 }
-.centrage-paris,.centrage-narbonne,.centrage-narbo,.humax 
+.centrage-paris,.centrage-narbonne,.centrage-narbo,.humax,.centrage-narbo1 
 {
 margin-left: 4.5%;
 }
 .employeurs1,.employeurs2,.employeurs3,.employeurs4,.employeurs5
 {
-margin-left: 50%;margin-top: -30px;margin-bottom: 0.5%; font-size: 1.1em; 
+margin-left: 40%;margin-top: -30px;margin-bottom: 0.5%; font-size: 1.1em; 
 }
-.centrage-etudiant,.centrage-bacpro,.indep,.kiloutou,.humax
+.indep,.kiloutou,.humax,.centrage-bacpro,.centrage-etudiant
 {
- margin-left: 50%; 
+ margin-left: 40%; padding-top: 20%;margin-bottom: 2%;
 }
-.centrage-etudiant p,.centrage-bacpro p,.indep p,.kiloutou p,.employeurs5 p,.humax p,.employeurs1 p
+.centrage-etudiant p,.centrage-bacpro p,.indep p,.kiloutou p,.employeurs5 p,
+.humax p,.employeurs1 p,.employeurs3 p,.employeurs4 p,.employeurs2 p
 {
-    margin-left: 50%;margin-bottom: 1%;margin-top: 0.2%;
+    margin-left: 40%;margin-bottom: 2%;margin-top: 1.2%;
 }
-.periodes-formations,.periodes-formations2,.periodes-experiences,.periodes-experiences2,.periodes-experiences3
+
+.periodes-formation,.periodes-formation2,.periodes-experiences,.periodes-experiences2,.periodes-experiences3
 {
- margin-left:20%; font-size:0.9em; margin-top: 2px;   
-} 
+ margin-left:13.5%; font-size:0.9em; margin-top: 2px;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .mark
 {
 margin-top: 5%;
 }
 .little
 {
-margin: -13% 0 0 46%;
+margin-left: 40%;
 }
 
