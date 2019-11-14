@@ -11,12 +11,8 @@ body{
 {
     width: 30%;
     background-color: #FFCA28;
+    height: 1550px;
 }
-.grid70
-{
-    width: 70%;
-}
-
 .photo img
 {
     border-radius: 50%;
@@ -24,7 +20,7 @@ body{
 .photo
 {
     text-align: center;
-    margin: 20px 0 20px 0;
+    margin: 40px 0px 40px 0px;
 }
 #contact h2, #a-propos h2, #loisirs h2
 {
@@ -36,105 +32,130 @@ body{
 }
 #a-propos p
 {
-    padding: 0px 10% 90% 10%;text-align: justify;
+    padding: 10px 10% 110% 10%;text-align: justify;
 }
 #loisirs i
 {
-    margin: 0px 0% 0% 15%;font-size: 3em;border: 2px black solid ;border-radius: 50%;
+    margin: 0px 0% 0% 15%;font-size: 3em;border: 2px #37474F solid ;border-radius: 50%;color: #37474F;
 }
 
 div.liste ul 
 {
     list-style:none;
+    padding: 5px 0px 5px 40px;
+
+}
+.grid70
+{
+    width: 70%;
+}
+.rubrique-formation,.rubrique-experience,.rubrique-recommandation
+{
+	font-size: 1.1em;color: black;
+}
+.rubrique-formation
+{
+    margin-top: 11%;
+}
+.rubrique-experience
+{
+    margin-top: 4%;
+}
+.rubrique-recommandation
+{
+    margin-top: 5%;
 }
 
+
+i
+{
+	color: #FFCA28;
+}
 .header
 {
     margin-left: 13.5%;
-    font-size: 1.5em;
-}
-.header h1
-{
-    text-transform: uppercase;
-}
-.header p
-{
-    margin-top: -25px;
-
+    
 }
 .header span
 {
     color: #FFCA28;
 }
+.header p
+{
+	font-size: 1.5em;
+}
 .sur-title
 {
     border-top:2px #FFCA28 solid;
     width: 100px;
-    margin-top: -20px;
+    margin-top: -16px;
+}
+h1
+{
+	font-size: 3.5em;
+	margin-top: 10.5%;
+	margin-bottom: -2%;color: black;
+}
+.rubrique-formation i,.rubrique-experience i,.rubrique-recommandation i
+{
+ padding-left: 13.5%;padding-right: 2%;margin-top: 8%;
+}
+.employeur,.employeur1,.employeur2,.employeur3,.employeur4
+{
+color:#270101;
 }
 
-.formation,.experiences,.recommandation
+
+
+
+.periode i,.periode1 i,.periode2 i
 {
- margin-left: 13.5%;font-size: 1.3em; padding-top: 5%;
+padding-left:13.5%; padding-right: 2%;margin-top: 4%;	
 }
-.sur-formation,.sur-experiences,.sur-recommandation
+
+.periode3 i,.periode4 i
 {
-border-top:2px #FFCA28 solid;
+padding-left: 13.5%;padding-right: 2%;margin-top: 5%;	
+}
+
+.periode span,.periode1 span,.periode2 span,.periode3 span,.periode4 span
+{
+padding-left: 17.5%;	
+}
+
+
+
+.employeur,.employeur1,.employeur2,.employeur3,.employeur4
+{
+	padding-left: 43.5%;margin-top: -4.5%;padding-bottom: 1%;
+}
+.open,.indep,.kiloutou,.humax
+{
+    padding-left: 43.5%;	
+}
+.asfo
+{
+	padding-left: 43.5%;.margin-top: -4.4%;	
+}
+.sur-formation,.sur-experience,.sur-recommandation
+{
+    border-top:2px #FFCA28 solid;
     width: 80%;
-    margin-top: -10px;    
+    margin-top: -10px; 
+    margin-left: 13.5%; 
+    margin-bottom: 4%; 
 }
-.centrage-experiences,.centrage-recommandation,.centrage-formation
-{
-margin-left: 4.5%; margin-top: 17%;
-}
-
-
-.periodes-formation i,.periodes-formation2 i,
-.periodes-experiences i,.periodes-experiences2 i,.periodes-experiences3 i,
-.experiences i,.formation i,.recommandation i
-{
-color: #FFCA28;width: 30px;margin-top: 20px;  
-}
-.centrage-paris,.centrage-narbonne,.centrage-narbo,.humax,.centrage-narbo1 
-{
-margin-left: 4.5%;
-}
-.employeurs1,.employeurs2,.employeurs3,.employeurs4,.employeurs5
-{
-margin-left: 40%;margin-top: -30px;margin-bottom: 0.5%; font-size: 1.1em; 
-}
-.indep,.kiloutou,.humax,.centrage-bacpro,.centrage-etudiant
-{
- margin-left: 40%; padding-top: 20%;margin-bottom: 2%;
-}
-.centrage-etudiant p,.centrage-bacpro p,.indep p,.kiloutou p,.employeurs5 p,
-.humax p,.employeurs1 p,.employeurs3 p,.employeurs4 p,.employeurs2 p
-{
-    margin-left: 40%;margin-bottom: 2%;margin-top: 1.2%;
-}
-
-.periodes-formation,.periodes-formation2,.periodes-experiences,.periodes-experiences2,.periodes-experiences3
-{
- margin-left:13.5%; font-size:0.9em; margin-top: 2px;   
-}
-
-
-
-
-
-
-
-
-
-
-
-
 .mark
 {
-margin-top: 5%;
+padding-left: 13.5%;
 }
 .little
 {
-margin-left: 40%;
+padding-left: 60%;margin-top: -11.5%;
 }
-
+@media screen and  (max-width: 1024px) 
+{ 
+  .conteneur120;
+  
+  
+}
