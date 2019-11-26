@@ -11,7 +11,7 @@ body{
 {
     width: 30%;
     background-color: #FFCA28;
-    height: 1550px;
+    height: auto;
 }
 .photo img
 {
@@ -21,6 +21,7 @@ body{
 {
     text-align: center;
     margin: 40px 0px 40px 0px;
+    
 }
 #contact h2, #a-propos h2, #loisirs h2
 {
@@ -32,57 +33,75 @@ body{
 }
 #a-propos p
 {
-    padding: 10px 10% 110% 10%;text-align: justify;
+    margin: 10px 10% 110% 10%;text-align: justify;
+
 }
 #loisirs i
 {
-    margin: 0px 0% 0% 15%;font-size: 3em;border: 2px #37474F solid ;border-radius: 50%;color: #37474F;
+    margin: 0px 0% 0% 10%;font-size: 3em;border: 2px #37474F solid ;border-radius: 50%;color: #37474F;
 }
 
 div.liste ul 
 {
     list-style:none;
-    padding: 5px 0px 5px 40px;
+    margin: 1px 0px 5px 1px;
 
 }
 .grid70
 {
     width: 70%;
+    padding-left:10%; 
 }
-.rubrique-formation,.rubrique-experience,.rubrique-recommandation
+.bloc
 {
-	font-size: 1.1em;color: black;
+    display: flex;
 }
-.rubrique-formation
+.periode,.periode1,.periode2,.periode3,.periode4
+{
+
+    width: 240px;
+    height: 200px;
+
+}
+.fonction,.fonction1,.fonction2,.fonction3,.fonction4
+{
+    width: 300px;
+    height: 200px;
+}
+.fonction1,.periode1,.fonction3,.fonction4,.periode3,.periode4
+{
+    margin-top: -4%;
+}
+.fonction3,.fonction4
+{
+    margin-top: -5.5%;
+}
+.fonction h3,.fonction1 h3,.fonction2 h3,.fonction3 h3,.fonction4 h3
+{
+
+    margin-bottom: -3%;
+}
+.fonction p,.fonction1 p,.fonction2 p,.fonction3 p,.fonction4 p
+{
+    margin-bottom: -3%;
+}
+.formation,.experience,.recommandation
+{
+    width: all;
+    font-size: 1.3em;
+    color: black;
+}
+.formation
 {
     margin-top: 11%;
 }
-.rubrique-experience
+.experience
 {
-    margin-top: 4%;
+ margin-top: -6%; 
 }
-.rubrique-recommandation
+.recommandation
 {
-    margin-top: 5%;
-}
-
-
-i
-{
-	color: #FFCA28;
-}
-.header
-{
-    margin-left: 13.5%;
-    
-}
-.header span
-{
-    color: #FFCA28;
-}
-.header p
-{
-	font-size: 1.5em;
+    margin-top: -13%;     
 }
 .sur-title
 {
@@ -90,72 +109,52 @@ i
     width: 100px;
     margin-top: -16px;
 }
-h1
-{
-	font-size: 3.5em;
-	margin-top: 10.5%;
-	margin-bottom: -2%;color: black;
-}
-.rubrique-formation i,.rubrique-experience i,.rubrique-recommandation i
-{
- padding-left: 13.5%;padding-right: 2%;margin-top: 8%;
-}
-.employeur,.employeur1,.employeur2,.employeur3,.employeur4
-{
-color:#270101;
-}
-
-
-
-
-.periode i,.periode1 i,.periode2 i
-{
-padding-left:13.5%; padding-right: 2%;margin-top: 4%;	
-}
-
-.periode3 i,.periode4 i
-{
-padding-left: 13.5%;padding-right: 2%;margin-top: 5%;	
-}
-
-.periode span,.periode1 span,.periode2 span,.periode3 span,.periode4 span
-{
-padding-left: 17.5%;	
-}
-
-
-
-.employeur,.employeur1,.employeur2,.employeur3,.employeur4
-{
-	padding-left: 43.5%;margin-top: -4.5%;padding-bottom: 1%;
-}
-.open,.indep,.kiloutou,.humax
-{
-    padding-left: 43.5%;	
-}
-.asfo
-{
-	padding-left: 43.5%;.margin-top: -4.4%;	
-}
 .sur-formation,.sur-experience,.sur-recommandation
 {
     border-top:2px #FFCA28 solid;
-    width: 80%;
+    width: 70%;
     margin-top: -10px; 
-    margin-left: 13.5%; 
-    margin-bottom: 4%; 
+    padding-left: 10%; 
+    margin-bottom: 2%; 
 }
-.mark
+i
 {
-padding-left: 13.5%;
+    color: #FFCA28;
+    padding-right: 3%;
+}
+
+.periode span,.periode1 span,.periode2 span ,.periode3 span,.periode4 span
+{
+    padding-left: 7.9%;
+}
+h1
+{
+    font-size: 3.5em;
+    margin-top: 10.5%;
+    margin-bottom: -2%;color: black;
+}
+.surname
+{
+ color: #FFCA28;
+}
+.header p
+{
+    font-size: 1.5em;
 }
 .little
 {
-padding-left: 60%;margin-top: -11.5%;
+    margin-left: 20%;
 }
-@media screen and  (max-width: 1024px) 
+.mark,.little
+{
+    margin-top: 2.5%;
+}
+
+@media screen and  (max-width: 760px) 
 { 
-  .conteneur120;
+  .conteneur120{
+    width: auto;
+  }
   
-  
+    
 }
