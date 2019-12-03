@@ -2,6 +2,10 @@ body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
     color:#615E5E;
+    overflow-x: hidden;
+}
+.m-title, .m-name, .m-recommandation{
+    display:none; 
 }
 .contener120
 {
@@ -56,19 +60,19 @@ div.liste ul
 {
     display: flex;
 }
-.periode,.periode1,.periode2,.periode3,.periode4
+.periode, .periode1, .periode2, .periode3, .periode4
 {
 
     width: 240px;
     height: 200px;
 
 }
-.fonction,.fonction1,.fonction2,.fonction3,.fonction4
+.fonction, .fonction1, .fonction2, .fonction3, .fonction4
 {
     width: 300px;
-    height: 200px;
+    height: 150px;
 }
-.fonction1,.periode1,.fonction3,.fonction4,.periode3,.periode4
+.fonction1,.periode1,.periode3,.periode4
 {
     margin-top: -4%;
 }
@@ -76,15 +80,13 @@ div.liste ul
 {
     margin-top: -5.5%;
 }
-.fonction h3,.fonction1 h3,.fonction2 h3,.fonction3 h3,.fonction4 h3
+.fonction h3,.fonction1 h3,.fonction2 h3,.fonction3 h3,.fonction4 h3,
+.fonction p,.fonction1 p,.fonction2 p,.fonction3 p,.fonction4 p
 {
 
     margin-bottom: -3%;
 }
-.fonction p,.fonction1 p,.fonction2 p,.fonction3 p,.fonction4 p
-{
-    margin-bottom: -3%;
-}
+
 .formation,.experience,.recommandation
 {
     width: all;
@@ -97,7 +99,7 @@ div.liste ul
 }
 .experience
 {
- margin-top: -6%; 
+   margin-top: -6%; 
 }
 .recommandation
 {
@@ -135,7 +137,7 @@ h1
 }
 .surname
 {
- color: #FFCA28;
+   color: #FFCA28;
 }
 .header p
 {
@@ -149,12 +151,121 @@ h1
 {
     margin-top: 2.5%;
 }
+@media screen  and  (min-width: 501px) and (max-width:720px)
+{
+  body
+  {
+    text-align:center;
+    font-size: 0.9em; 
+}
 
-@media screen and  (max-width: 760px) 
-{ 
-  .conteneur120{
-    width: auto;
-  }
-  
-    
+
+.grid30
+{
+    width: 50% !important;
+    height: auto;
+}
+.grid70
+{
+    width: 50% !important;
+    height: 1350px;
+}
+#a-propos p
+{
+    margin-bottom: 8px;
+}
+.sur-title, .sur-formation, .sur-experience, .sur-recommandation
+{  
+ margin: auto;
+}
+
+.recommandation
+{
+    margin-left: -90%;
+
+}
+.mark
+{
+    margin-left: -60%;
+}
+.sur-recommandation
+{
+    margin-left: -25%;margin-bottom: 5%;
+}
+
+
+}
+
+@media screen  and  (min-width: 767px) and (max-width:1023px)
+{
+    .fonction, .fonction1, .fonction2, .fonction3, .fonction4
+    {
+        margin-left: -20%;
+    }
+    .formation, .experience, .recommandation
+    {font-size: 1em;text-align: 30px;
+    }
+    #a-propos p
+    {
+        margin-bottom: 8px;text-align: justify;
+    }
+
+}
+@media screen and (max-width:500px) {
+
+    body{
+        text-align:center; 
+
+    }
+
+    .grid30{
+        width: 100% !important;
+        margin-top: -40px;
+        padding-top: 40px;
+        height: auto;
+    }
+    .grid70{
+        width: 100%;
+        padding-left: inherit;
+    }
+
+    .contener120
+    {
+        display:inherit;
+    }
+    .sur-title, .sur-formation, .sur-experience, .sur-recommandation{     margin: auto !important;
+    }
+    .bloc{
+        display:inherit
+    }
+    .periode, .periode1, .periode2, .periode3, .periode4, 
+    .fonction, .fonction1, .fonction2, .fonction3, .fonction4
+    {
+
+        width: 100%;    
+    }
+    .fonction, .fonction1, .fonction2, .fonction3, .fonction4
+    {
+        margin-top: -35%;
+    }
+    .m-title, .m-name{
+        display:block; 
+    }
+    .m-name{
+        font-style: 18px;
+    }
+    .m-title{
+        font-size: 14px;
+    }
+    .header h1, .header p, .sur-title{
+        display: none;
+    }
+    #a-propos p
+    {
+        margin: 10px 10% 8% 10%;text-align: justify;
+
+    }
+    .little{ margin-left: inherit;
+    }
+
 }
