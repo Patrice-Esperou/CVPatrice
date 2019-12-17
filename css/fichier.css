@@ -1,271 +1,151 @@
-body{
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    color:#615E5E;
-    overflow-x: hidden;
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  color:#6F6B61;
+  position: relative;
 }
-.m-title, .m-name, .m-recommandation{
-    display:none; 
+
+.container{
+  display:flex;
 }
-.contener120
-{
-    display: flex;
+.row{
+  display:flex;
 }
-.grid30
-{
-    width: 30%;
-    background-color: #FFCA28;
-    height: auto;
+.col1{width:10%;}.col2{width:20%;}.col3{width:30%;}.col4{width:40%;}.col5{width:50%;}.col6{width:60%;}.col7{width:70%;}.col8{width:80%;}.col9{width:90%;}.col10{width:100%;}
+.aside{
+  background-color:#FFCA28;
+  text-align:center;
 }
-.photo img
-{
-    border-radius: 50%;
-}
-.photo
-{
-    text-align: center;
-    margin: 40px 0px 40px 0px;
+.im-photo{
+  border-radius:50%;
+  margin:40px 0 20px 0;
+  border: 3px solid #B88C1F;
     
 }
-#contact h2, #a-propos h2, #loisirs h2
-{
-    background-color: #37474F;
-    width:  100%;
-    color: #FFCA28;
-    padding: 10px 0 10px 0;
-    text-align: center;
+.photo{
+  
 }
-#a-propos p
-{
-    margin: 10px 10% 110% 10%;text-align: justify;
-
+.t-left{
+  background-color:#37474F;
+  color:#FFCA28;
+  padding:15px 0 15px 0;
 }
-#loisirs i
-{
-    margin: 0px 0% 0% 10%;font-size: 3em;border: 2px #37474F solid ;border-radius: 50%;color: #37474F;
+#a-propos p, #contact p{
+  text-align:justify;
+  margin:20px;
 }
-
-div.liste ul 
-{
-    list-style:none;
-    margin: 1px 0px 5px 1px;
-
+#loisirs p i{
+  font-size:28px;
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  padding: 20px;
+  border: 1px solid black;
+  margin-right: 5%;
+  color:black;
 }
-.grid70
-{
-    width: 70%;
-    padding-left:10%; 
+header{
+  margin-top:100px;
+  margin-bottom:100px;
 }
-.bloc
-{
-    display: flex;
+.surname{
+  color:#FFCA28;
 }
-.periode, .periode1, .periode2, .periode3, .periode4
-{
-
-    width: 240px;
-    height: 200px;
-
+h1{
+  font-size:3em;
+  text-transform: uppercase;
 }
-.fonction, .fonction1, .fonction2, .fonction3, .fonction4
-{
-    width: 300px;
-    height: 150px;
-}
-.fonction1,.periode1,.periode3,.periode4
-{
-    margin-top: -4%;
-}
-.fonction3,.fonction4
-{
-    margin-top: -5.5%;
-}
-.fonction h3,.fonction1 h3,.fonction2 h3,.fonction3 h3,.fonction4 h3,
-.fonction p,.fonction1 p,.fonction2 p,.fonction3 p,.fonction4 p
-{
-
-    margin-bottom: -3%;
-}
-
-.formation,.experience,.recommandation
-{
-    width: all;
-    font-size: 1.3em;
-    color: black;
-}
-.formation
-{
-    margin-top: 11%;
-}
-.experience
-{
-   margin-top: -6%; 
-}
-.recommandation
-{
-    margin-top: -13%;     
-}
-.sur-title
-{
-    border-top:2px #FFCA28 solid;
+.sur-title {
+    border-top: 2px #FFCA28 solid;
     width: 100px;
-    margin-top: -16px;
+    margin-top: -10px;
 }
-.sur-formation,.sur-experience,.sur-recommandation
-{
-    border-top:2px #FFCA28 solid;
-    width: 70%;
-    margin-top: -10px; 
-    padding-left: 10%; 
-    margin-bottom: 2%; 
+header, .content section{
+  margin-left:70px;
+  margin-right:70px;
 }
-i
-{
-    color: #FFCA28;
-    padding-right: 3%;
+.content section{
+  margin-bottom:40px;
 }
-
-.periode span,.periode1 span,.periode2 span ,.periode3 span,.periode4 span
-{
-    padding-left: 7.9%;
+header p{
+  font-weight:bold;
+  margin-top:-25px;
 }
-h1
-{
-    font-size: 3.5em;
-    margin-top: 10.5%;
-    margin-bottom: -2%;color: black;
+.surline{
+  border-bottom:3px solid #FFCA28; 
+  width:100%;
+  margin-top:-10px;
+  margin-bottom:20px;
 }
-.surname
-{
-   color: #FFCA28;
+.content i{
+  margin-right:10px;
+  color:#FFCA28;
 }
-.header p
-{
-    font-size: 1.5em;
+.hide-des{
+  display:none;
 }
-.little
-{
-    margin-left: 20%;
+.content h2{
+  color:black !important;
 }
-.mark,.little
-{
-    margin-top: 2.5%;
+.content section p span{
+  margin-left:25px;
 }
-@media screen  and  (min-width: 501px) and (max-width:720px)
+#loisirs 
 {
-  body
-  {
+  position: absolute; 
+  bottom: 0;
+  width: 30%;
+}
+.fa-circle {
+  font-size: 0.6em;
+}
+@media screen and (max-width: 1200px) {
+  .md1{width:10%;}.md2{width:20%;}.md3{width:30%;}.md4{width:40%;}.md5{width:50%;}.md6{width:60%;}.md7{width:70%;}.md8{width:80%;}.md9{width:90%;}.md10{width:100%;}
+  .row{
+    display: inherit;
+  }
+    header, .content section{
+    margin-left:20px;
+    margin-right:20px;
+  }
+  #loisirs {
+    position: absolute;
+    bottom: 0;
+    width: 50% !important;
+}
+}
+@media screen and (max-width: 720px) {
+  .xs1{width:10%;}.xs2{width:20%;}.xs3{width:30%;}.xs4{width:40%;}.xs5{width:50%;}.xs6{width:60%;}.xs7{width:70%;}.xs8{width:80%;}.xs9{width:90%;}.xs10{width:100%;}
+  .container, .row{
+    display: inherit;
+  }
+  .aside{
+    margin-top:-20px;
+  }
+  .hide-des{
+    display:block;
+  }
+  .surname{
+  color:black;
+  }
+  p{
+    text-align:center !important;
+  }
+  header {
+    display:none;
+  }
+  .content section{
+    margin-left:10px;
+    margin-right:10px;
     text-align:center;
-    font-size: 0.9em; 
-}
-
-
-.grid30
-{
-    width: 50% !important;
-    height: auto;
-}
-.grid70
-{
-    width: 50% !important;
-    height: 1350px;
-}
-#a-propos p
-{
-    margin-bottom: 8px;
-}
-.sur-title, .sur-formation, .sur-experience, .sur-recommandation
-{  
- margin: auto;
-}
-
-.recommandation
-{
-    margin-left: -90%;
-
-}
-.mark
-{
-    margin-left: -60%;
-}
-.sur-recommandation
-{
-    margin-left: -25%;margin-bottom: 5%;
-}
-
-
-}
-
-@media screen  and  (min-width: 767px) and (max-width:1023px)
-{
-    .fonction, .fonction1, .fonction2, .fonction3, .fonction4
-    {
-        margin-left: -20%;
-    }
-    .formation, .experience, .recommandation
-    {font-size: 1em;text-align: 30px;
-    }
-    #a-propos p
-    {
-        margin-bottom: 8px;text-align: justify;
-    }
-
-}
-@media screen and (max-width:500px) {
-
-    body{
-        text-align:center; 
-
-    }
-
-    .grid30{
-        width: 100% !important;
-        margin-top: -40px;
-        padding-top: 40px;
-        height: auto;
-    }
-    .grid70{
-        width: 100%;
-        padding-left: inherit;
-    }
-
-    .contener120
-    {
-        display:inherit;
-    }
-    .sur-title, .sur-formation, .sur-experience, .sur-recommandation{     margin: auto !important;
-    }
-    .bloc{
-        display:inherit
-    }
-    .periode, .periode1, .periode2, .periode3, .periode4, 
-    .fonction, .fonction1, .fonction2, .fonction3, .fonction4
-    {
-
-        width: 100%;    
-    }
-    .fonction, .fonction1, .fonction2, .fonction3, .fonction4
-    {
-        margin-top: -35%;
-    }
-    .m-title, .m-name{
-        display:block; 
-    }
-    .m-name{
-        font-style: 18px;
-    }
-    .m-title{
-        font-size: 14px;
-    }
-    .header h1, .header p, .sur-title{
-        display: none;
-    }
-    #a-propos p
-    {
-        margin: 10px 10% 8% 10%;text-align: justify;
-
-    }
-    .little{ margin-left: inherit;
-    }
-
-}
+  }
+  .surline{
+    margin:auto;
+  }
+  #loisirs {
+  position: inherit; 
+  width: 100% !important;
+  padding-bottom:20px
+  }

@@ -1,139 +1,130 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="description" content="Le CV Patrice Esperou ">
-  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-  <meta name="author" content="Patrice Esperou">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mon CV</title>
-  <link rel="stylesheet" href="css/fichier.css">
-  <script src="https://kit.fontawesome.com/e30510dc42.js" crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/7f47540780.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Asap&display=swap" rel="stylesheet">
-</head>
-<body>
-	<div class="contener120">
-		<div class="grid30">
-			<div class="photo"> 
-				<img src="./images/profil.jpg" alt="photo de profil"/>
-        <h1 class="m-name">Patrice Esperou</h1>
-        <p class="m-title">Développeur web freelance</p>
-      </div>
-      <section id="contact"><h2>CONTACT</h2>
-       <div class="liste">
-        <ul>
-          <li><p>Adresse</br>Narbonne,France</p></li>
-          <li><p>Telephone</br>06 00 00 00 00</p></li>
-          <li><p>Email</br>pesperou@gmail.com</p></li>
-          <li><p>Site Web</br>https:creesite.yn.fr/</p></li>
-          <li><p>Skipe</br>@padraig</p></li>
-        </ul>
-      </div>
-    </section>
-    <section id="a-propos"><h2>A PROPOS DE MOI</h2> 
-      <p>Apres une quainzaine d'années d'experiences dans le secteur de la maintenance industrielle, et cinq dans la restauration. De 2016 a ce jour, je m'adonnai a mes loisirs, a savoir le minage de crypto currencies et trading. Le quatorze Octobre 2019, je lanca l'operation "Confucius", c'est a dire faire ce qu'il me plait pour ne plus avoir a travailler, et c'est ainsi que j'opta pour une formation de developpeur web.</p>
-      
-    </section>
-    <section id="loisirs"><h2>LOISIRS</h2>
-      <p><i class="fas fa-swimmer"></i><i class="fas fa-skiing"></i><i class="fas fa-table-tennis"></i></p>
-    </section>
-  </div>
-  <div class="grid70">
-    <!-- titre du CV -->
-    <div class="header">
-      <h1><span class="surname">Patrice</span> Esperou</h1>
-      <p>Développeur web freelance</p>
-      <div class="sur-title"></div>
-    </div>
-
-    <div class="formation">
-      <h2><i class="fas fa-graduation-cap"></i><span>FORMATION</span></h2>
-    </div>
-    <div class="sur-formation"></div>
-
-    <!-- bloc1-->
-
-    <div class="bloc">
-
-      <div class="periode">
-        <p><i class="far fa-dot-circle"></i>A ce jour</br> <span> Paris </span></p>
-      </div>
-      <div class="fonction">
-       <h3>OPENCLASSROOMS</h3>
-       <p> Etudiant Intégrateur Web </p>
-       <p>Assemblage de pages en HTML5 et CSS3 à partir de maquettes graphiques.Respecter les normes d’accessibilité et de référencement du W3C</p>
-     </div>
-   </div>
-
-   <div class="bloc">
-
-     <div class="periode1">
-       <p><i class="fas fa-circle"></i>1988 - 1989</br> <span> Narbonne </span></p>
-     </div>
-     <div class="fonction1">
-      <h3>ASFO </h3>
-      <p> Bac Pro Maintenance Systemes Automatisés </p><p>Electrotechnique, Pneumatique, Automatisme, Automate, Electromecanique, Electronique</p>
-    </div>
-  </div>
-
-  
-
-  <div class="experience"><h2><i class="fas fa-briefcase"></i><span>EXPERIENCE PROFESSIONNELLE</span></h2>
-  </div>
-  <div class="sur-experience">
-  </div>
-
-  <div class="bloc">
-
-    <div class="periode2">
-      <p><i class="fas fa-circle"></i>2016 - 2019</br><span>Narbonne</span></p>
-    </div>
-
-    <div class="fonction2"><h3>INDEPENDANT</h3>
-      <P> Mineur De Crypto Currencie</p> <p>Assemblage, Installation, Configuration, Exploitation, Rigs de Minage.</p>
-      </div>
-    </div>
-
-    <div class="bloc">
-
-      <div class="periode3">
-        <i class="fas fa-circle"></i>2008 - 2016</br><span>Narbonne</span>
-      </div>
-      <div class="fonction3"><H3>GROUPE KILOUTOU</H3>
-        <P> Technicien De Maintenance</p><p>Maintenance d'engins de chantiers</br>Thermique, Hydraulique, Mécanique, Electronique.</p>
+  <head>
+    <title>Mon CV</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="css/fichier.css">
+    <script src="https://kit.fontawesome.com/e30510dc42.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7f47540780.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Asap&display=swap" rel="stylesheet">
+  </head>  
+  <body>
+    <div class="container">
+      <div class="col3 md5 xs10 aside">
+        <div class="photo">
+          <img class="im-photo" src="./images/profil.jpg" alt="photo de profil"/>
+          <div class="hide-des">
+            <h1><span class="surname">Patrice</span> Esperou</h1>
+            <p>Développeur web freelance</p>
+            <div class="sur-title"></div>
+          </div>
         </div>
+        <section id="contact">
+          <h2 class="t-left">CONTACT</h2>
+          <p>
+            Adresse<br/>Narbonne,France
+          </p>
+          <p>
+            Telephone<br/>06 00 00 00 00
+          </p>
+          <p>
+            Email<br/>pesperou@gmail.com
+          </p>
+          <p>
+            Site Web<br/>https:creesite.yn.fr/
+          </p>
+          <p>
+            Skype<br/>@padraig
+          </p>
+        </section>
+        <section id="a-propos">
+          <h2 class="t-left">A PROPOS DE MOI</h2>
+          <p>Apres une quainzaine d'années d'experiences dans le secteur de la maintenance industrielle, et cinq dans la restauration. De 2016 a ce jour, je m'adonnai a mes loisirs, a savoir le minage de crypto currencies et trading. Le quatorze Octobre 2019, je lanca l'operation "Confucius", c'est a dire faire ce qu'il me plait pour ne plus avoir a travailler, et c'est ainsi que j'opta pour une formation de developpeur web.</p>
+        </section>
+        <section id="loisirs">
+          <h2 class="t-left">LOISIRS</h2>
+          <p><i class="fas fa-swimmer"></i>
+            <i class="fas fa-skiing"></i>
+            <i class="fas fa-table-tennis"></i>
+          </p>
+        </section>
       </div>
-
-      <div class="bloc">
-
-        <div class="periode4">
-         <i class="fas fa-circle"></i>2005 - 2008</br><span>Newtownard</span>
-       </div>
-       <div class="fonction4"><H3>HUMAX</H3>
-        <p>Technicien atelier</p><p>Déppannage démodulateur satellite.</p>
+      <div class="col7 md5 xs10 content">
+        <header>
+          <h1><span class="surname">Patrice</span> Esperou</h1>
+          <p>Développeur web freelance</p>
+          <div class="sur-title"></div>
+        </header>
+        <section id="formations">
+          <h2><i class="fas fa-graduation-cap"></i><span>FORMATION</span></h2>
+          <div class="surline"></div>
+          <div class="row">
+            <div class="col3 md10">
+              <p><i class="far fa-dot-circle"></i>A ce jour<br/> <span> Paris </span></p>
+            </div>
+            <div class="col5 md10">
+              <h3>OPENCLASSROOMS</h3>
+              <p> Etudiant Intégrateur Web </p>
+              <p>Assemblage de pages en HTML5 et CSS3 à partir de maquettes graphiques.Respecter les normes d’accessibilité et de référencement du W3C</p>
+            
+            </div>
+          </div>
+          <div class="row">
+            <div class="col3 md10">
+              <p><i class="fas fa-circle"></i>1988 - 1989<br/> <span> Narbonne </span></p>
+            </div>
+            <div class="col7 md10">
+              <h3>ASFO </h3>
+              <p> Bac Pro Maintenance Systemes Automatisés Electrotechnique</p>
+              <p>Pneumatique, Automatisme, Automate, Electromecanique, Electronique</p>
+            </div>
+          </div>
+          
+        </section>
+        <section id="experiences">
+          <h2><i class="fas fa-briefcase"></i><span>EXPERIENCE PROFESSIONNELLE</span></h2>
+          <div class="surline"></div>
+          <div class="row">
+            <div class="col3 md10">
+              <p><i class="far fa-dot-circle"></i>2016 - 2019<br/><span>Narbonne</span></p>
+            </div>
+            <div class="col7 md10">
+              <h3>INDEPENDANT</h3>
+              <p> Mineur De Crypto Currencie</p> 
+              <p>Assemblage, Installation, Configuration, Exploitation, Rigs de Minage.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col3 md10">
+              <p><i class="fas fa-circle"></i>2008 - 2016<br/><span>Narbonne</span></p>
+            </div>
+            <div class="col7 md10">
+              <h3>GROUPE KILOUTOU</h3>
+              <p> Technicien De Maintenance</p><p>Maintenance d'engins de chantiers Thermique, Hydraulique, Mécanique, Electronique.</p>
+            </div>
+          </div>
+        </section>
+        <section id="recommandations">
+          <h2><i class="fas fa-pencil-alt"></i><span>RECOMMANDATIONS</span></h2>
+          <div class="surline"></div>
+          <div class="row">
+             <div class="col5 md10"> 
+               <p>Marc Kaperles<br/> Genie Crtpto actif<br/> Telephone xx xx xx xx xx<br/> Email: Marko@themoon.com</p>
+             </div>
+             <div class="col5 md10"> 
+               <p>
+               Little world of Satoshi<br/> Initiateur en Crypto<br/> Telephone xx xx xx xx xx<br/> Site https://littleworldofsatoshi.com/
+               </p>
+             </div> 
+          </div>
+        </section>
       </div>
+  
     </div>
-
-    <div class="recommandation"><h2><i class="fas fa-pencil-alt"></i><span>RECOMMANDATIONS</span></h2>
-    </div>
-    <div class="sur-recommandation">
-    </div>
-
-    <div class="bloc">
-
-      <div class="mark"> Marc Kaperles</br> Genie Crtpto actif</br> Telephone xx xx xx xx xx</br> Email: Marko@themoon.com
-      </div>
-
-      <div class="little"> Little world of Satoshi</br> Initiateur en Crypto</br> Telephone xx xx xx xx xx</br> Site: https://littleworldofsatoshi.com/
-      </div> 
-      
-    </div>
-
-    
-
-    
-  </div>
-</body>
+  </body>
 </html>
