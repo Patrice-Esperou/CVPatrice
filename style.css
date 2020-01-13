@@ -13,26 +13,27 @@ body {
 .row{
   display:flex;
 }
-/* valeurs des largeurs blocs */
+/* création d'une grille a 10 colonnes */
 .col1{width:10%;}.col2{width:20%;}.col3{width:30%;}.col4{width:40%;}.col5{width:50%;}.col6{width:60%;}.col7{width:70%;}.col8{width:80%;}.col9{width:90%;}.col10{width:100%;}
 /* couleur de fond positionnement texte colonne de gauche */
 .aside{
   background-color:#FFCA28;
   text-align:center;
 }
-/* bordure couleur positionnement photo */
+/* mise en forme photo de profil */
 .im-photo{
   border-radius:50%;
   margin:40px 0 20px 0;
   border: 3px solid #B88C1F;
     
 }
-/* positionnement rubriques couleurs bordure colonne de gauche */
+/* mise en forme des titres bloc de gauche */
 .t-left{
   background-color:#37474F;
   color:#FFCA28;
   padding:15px 0 15px 0;
 }
+/* mise en forme des contenus bloc de gauche*/
 #a-propos p, #contact p{
   text-align:justify;
   margin:20px;
@@ -47,7 +48,17 @@ body {
   margin-right: 5%;
   color:black;
 }
-/* positionnement du header */
+/* positionnement des iconesloisir du block de gauche en bas de page */
+#loisirs 
+{
+  position: absolute; 
+  bottom: 0;
+  width: 30%;
+}
+.fa-circle {
+  font-size: 0.6em;
+}
+/* mise en forme du titre de la page */
 header{
   margin-top:100px;
   margin-bottom:100px;
@@ -68,13 +79,15 @@ header, .content section{
   margin-left:70px;
   margin-right:70px;
 }
-.content section{
-  margin-bottom:40px;
-}
 header p{
   font-weight:bold;
   margin-top:-25px;
 }
+/* mise en page des sections de la page (block droit) */
+.content section{
+  margin-bottom:40px;
+}
+
 .surline{
   border-bottom:3px solid #FFCA28; 
   width:100%;
@@ -94,16 +107,8 @@ header p{
 .content section p span{
   margin-left:25px;
 }
-#loisirs 
-{
-  position: absolute; 
-  bottom: 0;
-  width: 30%;
-}
-.fa-circle {
-  font-size: 0.6em;
-}
-/* adaptation pour les differentes tailles d'ecrans */
+
+/* adaptation pour ipad et notebook */
 @media screen and (max-width: 1200px) {
   .md1{width:10%;}.md2{width:20%;}.md3{width:30%;}.md4{width:40%;}.md5{width:50%;}.md6{width:60%;}.md7{width:70%;}.md8{width:80%;}.md9{width:90%;}.md10{width:100%;}
   .row{
@@ -119,6 +124,7 @@ header p{
     width: 50% !important;
   }
 }
+/* adaptation pour différents mobiles */
 @media screen and (max-width: 720px) {
   .xs1{width:10%;}.xs2{width:20%;}.xs3{width:30%;}.xs4{width:40%;}.xs5{width:50%;}.xs6{width:60%;}.xs7{width:70%;}.xs8{width:80%;}.xs9{width:90%;}.xs10{width:100%;}
   .container, .row{
